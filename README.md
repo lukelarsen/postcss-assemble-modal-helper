@@ -24,15 +24,15 @@ This plugin will help set the widths of your modal windows when using the [Assem
 Will output:
 
 ```css
-.modal__block-large {
+.modal-block__large {
     max-width: 500px
 }
 
-.modal__block-medium {
+.modal-block__medium {
     max-width: 300px
 }
 
-.modal__block-half {
+.modal-block__half {
     max-width: 50%
 }
 ```

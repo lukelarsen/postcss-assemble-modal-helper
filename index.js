@@ -15,7 +15,7 @@ module.exports = postcss.plugin('assemble-modal-helper', function (options) {
                         newRule;
 
                     ruleSelectors = ruleSelectors.map(function(ruleSelector){
-                        return '.modal__block-' + property;
+                        return '.modal-block__' + property;
                     }).join(',\n');
 
                     // Insert the new rule before the original rule.
