@@ -23,7 +23,7 @@ module.exports = postcss.plugin('assemble-modal-helper', function (options) {
                         selector: ruleSelectors
                     }).removeAll();
 
-                    newRule.append('max-width:' + value + ';');
+                    newRule.append('width:' + value + ';');
                 });
 
                 // Remove the original rule.
