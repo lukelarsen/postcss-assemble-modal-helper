@@ -1,6 +1,6 @@
 {
   "name": "postcss-assemble-modal-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A PostCSS plugin that helps with the use of Assemble Modals.",
   "keywords": [
     "postcss",
